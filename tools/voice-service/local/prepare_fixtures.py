@@ -6,7 +6,7 @@ import requests
 
 output = Path(__file__).resolve().parents[3] / "artifacts/game-companion"
 output.mkdir(parents=True, exist_ok=True)
-token = dotenv_values(Path.home() / ".config/edge-tts-proxy/service.env")["API_KEY"]
+token = dotenv_values(Path.home() / ".config/poetry-companion/voice/service.env")["API_KEY"]
 client = requests.Session()
 client.trust_env = False
 questions = ["我叫小林，请记住我的名字。", "我叫什么名字？请简短回答。", "请读一句李白的诗，不超过二十字。"]

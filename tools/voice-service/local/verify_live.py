@@ -10,7 +10,7 @@ import requests
 
 OUTPUT = Path(__file__).resolve().parents[3] / "artifacts/edge-tts-demo"
 OUTPUT.mkdir(parents=True, exist_ok=True)
-secret = dotenv_values(Path.home() / ".config/edge-tts-proxy/service.env")["API_KEY"]
+secret = dotenv_values(Path.home() / ".config/poetry-companion/voice/service.env")["API_KEY"]
 client = requests.Session()
 client.trust_env = False
 url = "http://127.0.0.1:5050/v1/audio/speech"

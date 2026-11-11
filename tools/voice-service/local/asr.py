@@ -11,7 +11,7 @@ import sherpa_onnx
 from flask import jsonify, request
 from utils import require_api_key
 
-MODEL_DIR = Path.home() / ".config/edge-tts-proxy/models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2025-09-09"
+MODEL_DIR = Path.home() / ".config/poetry-companion/voice/models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2025-09-09"
 
 def install_asr(app):
     recognizer = sherpa_onnx.OfflineRecognizer.from_sense_voice(
