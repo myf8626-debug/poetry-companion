@@ -1,0 +1,31 @@
+{
+  "continuous": [
+    {
+      "turn": 1,
+      "reply": "小林，好名字，清雅如林间风。小书童记下了，往后便唤你小林。",
+      "microphoneMutedDuringPlayback": true
+    },
+    {
+      "turn": 2,
+      "reply": "小林，小书童记着呢，不会忘。可要先去园中逛逛，还是先玩一局飞花令？",
+      "microphoneMutedDuringPlayback": true
+    },
+    {
+      "turn": 3,
+      "reply": "小林，你已说过两回啦，小书童都记在心上。要不咱们换个花样，我出个“花”字，你接一句带“花”的诗可好？",
+      "microphoneMutedDuringPlayback": true
+    }
+  ],
+  "checks": [
+    "Three continuous browser microphone turns with real ASR/LLM/TTS and growing history",
+    "Stop reply resumes listening; end voice releases all microphone tracks",
+    "Text fallback retains the spoken conversation context",
+    "Closing the panel releases the microphone",
+    "Navigating away removes the companion and releases microphone tracks",
+    "Denied microphone permission shows an actionable error and keeps text input available",
+    "TTS failure preserves the answer and leaves text input usable",
+    "Closing a pending model request suppresses late answers and playback",
+    "Mobile panel fits a 390px viewport"
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "turn": 1,
+    "transcript": "我叫小林请记住我的名字",
+    "answer": "小林你好呀，小书童这厢有礼了～往后游园论诗，唤你一声小林便是。",
+    "seconds": 6.15,
+    "audio_seconds": "7.824000"
+  },
+  {
+    "turn": 2,
+    "transcript": "我叫什么名字请简短回答",
+    "answer": "你叫小林。",
+    "seconds": 4.19,
+    "audio_seconds": "1.872000"
+  },
+  {
+    "turn": 3,
+    "transcript": "请读一句李白的诗不超过二十字",
+    "answer": "“举头望明月，低头思故乡。”——李白《静夜思》",
+    "seconds": 5.47,
+    "audio_seconds": "5.808000"
+  }
+]

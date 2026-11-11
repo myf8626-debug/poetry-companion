@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Closing while microphone authorization is pending releases a late-acquired stream",
+    "pagehide releases microphone resources",
+    "Single-turn mode releases microphone automatically after the answer finishes"
+  ]
+}

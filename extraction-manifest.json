@@ -1,0 +1,212 @@
+[
+  {
+    "source": "shici-app-starter -完整版本/src/components/game/GameCompanion.vue",
+    "target": "frontend/src/components/game/GameCompanion.vue",
+    "sha256": "b0130a809f6117457c871e2eb5e4ebe928933f95de5796b4117cca207ed532a9"
+  },
+  {
+    "source": "shici-app-starter -完整版本/src/components/game/ScholarAvatar.vue",
+    "target": "frontend/src/components/game/ScholarAvatar.vue",
+    "sha256": "815c44ec8f76b69b199b89648eef5f00c60f4f9151360d886faf567427f74252"
+  },
+  {
+    "source": "shici-app-starter -完整版本/src/composables/useGameCompanion.js",
+    "target": "frontend/src/composables/useGameCompanion.js",
+    "sha256": "6762d01d60add27ee96d275e9eafca72be7c95714f3424cc6ce450db7164dbf1"
+  },
+  {
+    "source": "shici-app-starter -完整版本/src/utils/companionAudio.js",
+    "target": "frontend/src/utils/companionAudio.js",
+    "sha256": "8bac56d8c42f3c3acbb4a19ef1a539d03eb6acce21eeb4bc0166e2adafbd5439"
+  },
+  {
+    "source": "shici-app-starter -完整版本/src/utils/gameCompanionApi.js",
+    "target": "frontend/src/utils/gameCompanionApi.js",
+    "sha256": "e077c42e9720b0fc9a50a624467e6e77727af02ec019102f1893687ea9aa79a7"
+  },
+  {
+    "source": "shici-app-starter -完整版本/public/worklets/companion-recorder.js",
+    "target": "frontend/public/worklets/companion-recorder.js",
+    "sha256": "7db9d98c4c1df6fcec9fd6cb3bdda5552d77933a737cdb32e7029111a7f7c58a"
+  },
+  {
+    "source": "shici-app-starter -完整版本/tests/companionAudio.test.mjs",
+    "target": "frontend/tests/companionAudio.test.mjs",
+    "sha256": "8b059b41d34fd0019546c1732bd3e5e333e87e9713ff7a0f4f21f921d3e6f89b"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/common/R.java",
+    "target": "backend/src/main/java/com/shici/common/R.java",
+    "sha256": "f19f781f572bb2c5f339ca84986eb4f68ebc8737bd0f2670742583efd971adb8"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/config/AIConfig.java",
+    "target": "backend/src/main/java/com/shici/config/AIConfig.java",
+    "sha256": "85d3d3698c9891ac4412af14666f8abad35c9459a0e790ddf45a8e360584e4be"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/domain/dto/AssistantChatResponse.java",
+    "target": "backend/src/main/java/com/shici/domain/dto/AssistantChatResponse.java",
+    "sha256": "6de0bae3536eeaa0702765afd7c8502a91fecf542fb7dda1997aafe5ba17d05e"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/domain/dto/AssistantSource.java",
+    "target": "backend/src/main/java/com/shici/domain/dto/AssistantSource.java",
+    "sha256": "ef012497f940b643d4300965d045650fc1cfb7208f76ad33d06ee8f7dc929844"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/domain/dto/GameCompanionChatRequest.java",
+    "target": "backend/src/main/java/com/shici/domain/dto/GameCompanionChatRequest.java",
+    "sha256": "67118cab4cdeb6492c8dc1b766825be2a037a589200b5a77562a7034e537fd39"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/controller/GameCompanionController.java",
+    "target": "backend/src/main/java/com/shici/controller/GameCompanionController.java",
+    "sha256": "aae018363350d5e3fd782d10f94438235a79a89fbbf26ea79f53d277027f2076"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/controller/GameCompanionVoiceController.java",
+    "target": "backend/src/main/java/com/shici/controller/GameCompanionVoiceController.java",
+    "sha256": "43996c73c075772e7226910e455c986cb2c1498f44e3dc0154401aaef18472b6"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/service/GameCompanionService.java",
+    "target": "backend/src/main/java/com/shici/service/GameCompanionService.java",
+    "sha256": "dd0156858f929645d1bbba3745bfb608db6060164c09c483a3b930297eef5f76"
+  },
+  {
+    "source": "shici-app-server/src/main/java/com/shici/service/GameCompanionVoiceService.java",
+    "target": "backend/src/main/java/com/shici/service/GameCompanionVoiceService.java",
+    "sha256": "e84aed8577e73ca5bd2c1505e0c1ca65091fe16f86f8e6043517478cd2c472d2"
+  },
+  {
+    "source": "shici-app-server/src/test/java/com/shici/controller/GameCompanionControllerTest.java",
+    "target": "backend/src/test/java/com/shici/controller/GameCompanionControllerTest.java",
+    "sha256": "56c0cc0c1c5e9c03b103c40da160f300782c4535bdc89c84c0d23dd97e7ccb81"
+  },
+  {
+    "source": "shici-app-server/src/test/java/com/shici/controller/GameCompanionVoiceControllerTest.java",
+    "target": "backend/src/test/java/com/shici/controller/GameCompanionVoiceControllerTest.java",
+    "sha256": "e7c2bfccb9d7c079b851d4caec86aea47544ce8b2c1baded118ab9d1eb52dc7f"
+  },
+  {
+    "source": "tools/voice-service/LICENSE",
+    "target": "tools/voice-service/LICENSE",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "source": "tools/voice-service/README.md",
+    "target": "tools/voice-service/README.md",
+    "sha256": "af1546a7561772e8b067f685e2d6ce1bacfc3698502ead2103d69473913497dd"
+  },
+  {
+    "source": "tools/voice-service/requirements.txt",
+    "target": "tools/voice-service/requirements.txt",
+    "sha256": "35a9e7c9713b76adac6d6303af5518fdc404aae597c485eed790b8420e01f992"
+  },
+  {
+    "source": "tools/voice-service/setup.ps1",
+    "target": "tools/voice-service/setup.ps1",
+    "sha256": "7934f1f9a9f9a0821756bd231d47e141ecef3fd4e5ea4fa2559f1f433e127f9c"
+  },
+  {
+    "source": "tools/voice-service/start-local.ps1",
+    "target": "tools/voice-service/start-local.ps1",
+    "sha256": "1fbdec26a48e7a5c868c933ba2e18cc4034f30631ebf526252e8f7c6436d348b"
+  },
+  {
+    "source": "tools/voice-service/UPSTREAM_README.md",
+    "target": "tools/voice-service/UPSTREAM_README.md",
+    "sha256": "f17d632deeabb87d3677d34230d02fab8bf163248b4aca11c001e681dee5e20b"
+  },
+  {
+    "source": "tools/voice-service/app/config.py",
+    "target": "tools/voice-service/app/config.py",
+    "sha256": "85c7f79c8d548869e3c6777a905438e04464804ed9f65606c05079bf7c3a3e06"
+  },
+  {
+    "source": "tools/voice-service/app/handle_text.py",
+    "target": "tools/voice-service/app/handle_text.py",
+    "sha256": "79cb9e17bd8899981f80dd9c3f3987d6bf5edd051cc3d0eabb0dead43134b72d"
+  },
+  {
+    "source": "tools/voice-service/app/server.py",
+    "target": "tools/voice-service/app/server.py",
+    "sha256": "953de23f2bfb2fd2656a59f1c9e7c350a4fe6a205aa602f9d7a97bca3ab88cf5"
+  },
+  {
+    "source": "tools/voice-service/app/tts_handler.py",
+    "target": "tools/voice-service/app/tts_handler.py",
+    "sha256": "95dccf5a7694e70872a95ff065145f7bc4f143ab93653ae1e1f1a59d73a1839b"
+  },
+  {
+    "source": "tools/voice-service/app/utils.py",
+    "target": "tools/voice-service/app/utils.py",
+    "sha256": "95b75a621d1299d04f01cb6802b32702079481c677d7f25ae554c62ee71d1884"
+  },
+  {
+    "source": "tools/voice-service/local/asr.py",
+    "target": "tools/voice-service/local/asr.py",
+    "sha256": "9c5770963eb35ad11bbb937838638986084c446cf0c3323875585466e2890638"
+  },
+  {
+    "source": "tools/voice-service/local/configure_local.py",
+    "target": "tools/voice-service/local/configure_local.py",
+    "sha256": "bdf74f540b3aeb7458c408f314cc63677d6df2ecc90df7162eabefb1a42f04ea"
+  },
+  {
+    "source": "tools/voice-service/local/prepare_fixtures.py",
+    "target": "tools/voice-service/local/prepare_fixtures.py",
+    "sha256": "7e1398cdd074b6823f1aa2fd324d9ac8b2911803f0b0a630a9be2fc6bc944a20"
+  },
+  {
+    "source": "tools/voice-service/local/requirements.lock.txt",
+    "target": "tools/voice-service/local/requirements.lock.txt",
+    "sha256": "84a71fcdb1ca14bcbd321589389c0459f0efb4426cc0c415cf6e982ab61875a8"
+  },
+  {
+    "source": "tools/voice-service/local/run_local.py",
+    "target": "tools/voice-service/local/run_local.py",
+    "sha256": "1cfb909aa779d0999889c98629ecb275c57da323750447dc13a404e5836ba73b"
+  },
+  {
+    "source": "tools/voice-service/local/setup_asr.py",
+    "target": "tools/voice-service/local/setup_asr.py",
+    "sha256": "43c61a39e111d94f5501798737df5d608185d0bac8d76aed50f6563ed69c27bf"
+  },
+  {
+    "source": "tools/voice-service/local/verify_live.py",
+    "target": "tools/voice-service/local/verify_live.py",
+    "sha256": "2fd5d03741f69134b42da2c1170960dd77c1838316e7aff51935ce2bb4abe046"
+  },
+  {
+    "source": "docs/verification/browser-verification.json",
+    "target": "docs/upstream-verification/browser-verification.json",
+    "sha256": "5af49b6896023bba40bd5e4bcca6ddefdb96aeb1d236449c6e612eb37cc8c923"
+  },
+  {
+    "source": "docs/verification/desktop-conversation.png",
+    "target": "docs/upstream-verification/desktop-conversation.png",
+    "sha256": "299b36cc1906a6dea735645a09ab4a9c91e84e1d3a57b659b4d5540c9f3b016f"
+  },
+  {
+    "source": "docs/verification/game-companion.md",
+    "target": "docs/upstream-verification/game-companion.md",
+    "sha256": "fe82905730d745b4a1a6d144eb405f4baca1fbf99d18ea54997405f760f35470"
+  },
+  {
+    "source": "docs/verification/lifecycle-verification.json",
+    "target": "docs/upstream-verification/lifecycle-verification.json",
+    "sha256": "674c3bb9582714ac6257b2f47e44ac246194f4a36d886d506c80cf081e430e33"
+  },
+  {
+    "source": "docs/verification/permission-verification.json",
+    "target": "docs/upstream-verification/permission-verification.json",
+    "sha256": "2741c8c84c019d7039c5a1d0db546df21332a8816061b099d3b3504381a3d4ac"
+  },
+  {
+    "source": "docs/verification/three-turn-verification.json",
+    "target": "docs/upstream-verification/three-turn-verification.json",
+    "sha256": "49a39d352c0dda7a95fd6a82c515a737cb5347bf0dabb5a88237d5e12eb6a89e"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Denied permission offers accurate guidance, working copy action and usable text input; mobile fits viewport",
+    "Permissions Policy blocking is distinguished from user refusal and does not request blocked capture"
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,13 @@
+server:
+  address: 127.0.0.1
+  port: 8086
+ai:
+  deepseek:
+    api-key: ${DEEPSEEK_API_KEY:}
+    model: ${DEEPSEEK_MODEL:deepseek-chat}
+    model-url: ${DEEPSEEK_URL:https://api.deepseek.com/chat/completions}
+    thinking-enabled: false
+  companion:
+    voice:
+      base-url: ${VOICE_SERVICE_URL:http://127.0.0.1:5050}
+      api-key: ${VOICE_SERVICE_TOKEN:}
